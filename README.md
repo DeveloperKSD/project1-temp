@@ -13,3 +13,5 @@ ALSO REPLACE tools.py with your api key and model name
 if not sure use which one just run checkmodel.py
 
 also download all the libraries from requirements.txt
+
+TO RUN- go to cmd with directory to the project and then run main.py
