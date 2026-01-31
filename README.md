@@ -19,4 +19,4 @@ STEPS:
 3. pip install -r requirements.txt
 4. put your api key and model in tools.py
 5. if you want to check the model name, just run the checkmodel.py
-6. after all is ddone, run main.py and YIPPEEE
+6. after all is done, run main.py and YIPPEEE
