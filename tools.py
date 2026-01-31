@@ -2,11 +2,11 @@
 import google.generativeai as genai
 
 # PUT YOUR API KEY HERE
-genai.configure(api_key='AIzaSyDc666Ya3AObWznUhrWVoVpRwedqlOLITk')
+genai.configure(api_key='ENTER_API_KEY')
 
 class TicketAnalyzer:
     def __init__(self):
-        self.model = genai.GenerativeModel('gemini-2.5-flash')
+        self.model = genai.GenerativeModel('ENTER_AI_NAME')
     
     def analyze(self, ticket, context):
         """Analyze ticket to find root cause"""
@@ -42,4 +42,5 @@ class ActionExecutor:
     def execute(self, decision):
         """Execute approved actions (simulation)"""
         print(f"✅ Executing: {decision['action']}")
+
         return {"status": "completed", "action": decision['action']}
