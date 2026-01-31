@@ -7,4 +7,4 @@ agent/agent.py
 data/memory.json
     tickets.json
 
-checkmodels.py not needed ijn final execution, only used to check the current running ai model/api
+checkmodels.py not needed in final execution, only used to check the current running ai model/api
